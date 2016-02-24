@@ -21,6 +21,9 @@ class OtherClass extends MyClass
 
         parent::myFunc();
         echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
     }
 }
 
