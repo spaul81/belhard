@@ -8,7 +8,7 @@
 class MyClass
 {
     protected function myFunc() {
-        echo "MyClass::myFunc()\n";
+        echo "MyClass::myFunc()\n ";
     }
 }
 
