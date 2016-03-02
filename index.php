@@ -20,6 +20,10 @@ class DbSQLite3Test{
         while ($row = $result->fetchArray()) {
 
             //var_dump($row);
+            //var_dump($row);
+            //var_dump($row);
+          //  git add .
+            //var_dump($row);
 
             echo("Id: ".$row['id']." Name: ".$row['name']."<br>\n");
 
