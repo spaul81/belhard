@@ -35,6 +35,9 @@ class OtherClass extends MyClass
         echo "OtherClass::myFunc()\n";
         echo "OtherClass::myFunc()\n";
         echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
     }
 }
 
