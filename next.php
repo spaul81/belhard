@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: Pavel
@@ -7,7 +8,11 @@
  */
 class MyClass
 {
-    protected function myFunc() {
+    /**
+     *
+     */
+    protected function myFunc()
+    {
         echo "MyClass::myFunc()\n ";
     }
 }
@@ -24,25 +29,33 @@ class OtherClass extends MyClass
         echo "OtherClass::myFunc()\n";
         echo "OtherClass::myFunc()\n";
         echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
+        echo "OtherClass::myFunc()\n";
     }
 }
 
 $class = new OtherClass();
 $class->myFunc();
 
-class AddressManager {
+class AddressManager
+{
 
-    private $addresses = array ( "209.131.36.159", "192.168.2.1");
+    private $addresses = array("209.131.36.159", "192.168.2.1");
 
-    function outputAddresses ( $resolve ) {
+    function outputAddresses($resolve)
+    {
 
-    foreach ( $this ->addresses as $address ) {
-        print $address;
-        if ($resolve) {
-            print " ( " . gethostbyaddr($address) . " ) ";
-        }
-        print " \n ";
+        foreach ($this->addresses as $address) {
+            print $address;
+            if ($resolve) {
+                print " ( " . gethostbyaddr($address) . " ) ";
             }
+            print " \n ";
+        }
 
     }
 }
